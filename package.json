@@ -1,0 +1,31 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "A birthday bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect --exec babel-node bin/run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayodelevm/bot.git"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "Ayodele Victor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ayodelevm/bot/issues"
+  },
+  "homepage": "https://github.com/ayodelevm/bot#readme",
+  "dependencies": {
+    "@slack/client": "^3.14.2",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "nodemon": "^1.12.1"
+  }
+}
